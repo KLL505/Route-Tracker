@@ -141,12 +141,12 @@ int main()
     string line; 
     int count;
     cout << "Enter Graph File Name" << endl;
-    //cin >> gFile;
+    cin >> gFile;
     cout << "Enter Routes File Name" << endl;
-    //cin >> rFile;
+    cin >> rFile;
     cout << endl;
-    gFile = "samplegraph.txt";
-    rFile = "sample_routes_p5.txt";
+    //gFile = "samplegraph.txt";
+    //rFile = "sample_routes_p5.txt";
     ifstream input (gFile);
     if(input.is_open())
     {
@@ -172,7 +172,7 @@ int main()
         input.close();
     }
     cout << endl;
-    g.test();
+    //g.test();
     //cout << "Finished" <<endl; 
     return 0;
 }
